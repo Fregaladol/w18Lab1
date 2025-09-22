@@ -62,9 +62,13 @@ button:hover {
     border: 2px dashed #ff00ff;
     padding: 20px;
     margin: 10px;
-    width: 250px;
     border-radius: 10px;
+
+    display: inline-block; /* Hace que el ancho se ajuste al contenido */
+    width: auto;           /* Permite cuadro de dialogo ajuzte al texto ancho */
 }
+
+
 
 .feature h2 {
     margin-bottom: 10px;
