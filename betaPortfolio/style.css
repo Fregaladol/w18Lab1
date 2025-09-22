@@ -62,9 +62,13 @@ button:hover {
     border: 2px dashed #ff00ff;
     padding: 20px;
     margin: 10px;
-    width: 250px;
     border-radius: 10px;
+
+    display: inline-block; /* Hace que el ancho se ajuste al contenido */
+    width: auto;           /* Permite cuadro de dialogo ajuzte al texto ancho */
 }
+
+
 
 .feature h2 {
     margin-bottom: 10px;
@@ -82,3 +86,19 @@ footer {
     font-size: 0.8rem;
     border-top: 3px solid #00ffcc;
 }
+
+.tech-banner {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-banner i {
+    font-size: 50px; /* tamaño de los iconos */
+}
+
